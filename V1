@@ -1,0 +1,28 @@
+  "auth_client_id": null,
+  "created_at": "2026-11-17T13:49:37.770516+00:00",
+  "current_live_url": null,
+  "current_preview_url": null,
+  "description": null,
+  "disabled_by": null,
+  "expected_url": "https://atelier-sirh-m2-171126.lastspark16.chatgpt.site",
+  "id": "appgprj_6afc5b68c87081918c2e9baea9a709a9",
+  "latest_edit_context": null,
+  "latest_version_number": 0,
+  "screenshot_url": null,
+  "slug": "atelier-sirh-m2-171126",
+  "source_repository_credential": {
+    "app_repository_id": "appgrepo_b2b4526bc9c08191940d50fabf9008a5",
+    "auth_mode": "http_extra_header",
+    "branch": "main",
+    "provider": "cloudflare_artifact",
+    "publish_on_push_accepted": false,
+    "publish_on_push_expires_at": null,
+    "remote_url": "https://git.chatgpt-team.site/d19ad20f-8428-4a3e-b4c9-5892d126e18e/appgprj_6afc5b68c87081918c2e9baea9a709a9.git",
+    "repository": "appgprj_6afc5b68c87081918c2e9baea9a709a9",
+    "token": "art_v2_x_ca31a57a727c2c6bfdef3a638aa82ce240852f2a",
+    "token_expires_at": "2026-11-17T13:59:42.187Z"
+  },
+  "status": "active",
+  "title": "Orbia — SIRH pédagogique",
+  "updated_at": "2026-11-17T13:49:37.854384+00:00"
+}
