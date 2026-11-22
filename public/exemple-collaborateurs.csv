@@ -1,0 +1,101 @@
+﻿id_collaborateur;nom;prenom;email;date_naissance;date_embauche;type_contrat;code_service;intitule_poste;niveau_classification;salaire_brut_mensuel;taux_temps_travail;solde_cp;solde_rtt;id_manager;profil_acces
+C001;Chevalier;Thomas;thomas.chevalier@ateliernorde.fr;04/05/1977;30/06/2010;CDI;DIR;Directeur général;Cadre;9500,00;100;1;3;;MANAGER
+C002;Bernard;Elise;elise.bernard@ateliernorde.fr;17/06/1996;11/02/2023;CDD;DIR;Assistante de direction;Technicien;2803,00;100;5;3;C001;COLLABORATEUR
+C003;Michel;Manon;manon.michel@ateliernorde.fr;16/01/1982;04/03/2007;CDI;DIR;Directrice administrative;Technicien;2470,00;100;3,5;3;C001;COLLABORATEUR
+C004;Morin;Clara;clara.morin@ateliernorde.fr;29/09/1992;10/02/2021;CDI;RH;Responsable RH;Cadre;6164,00;100;8,5;1;C001;RH_ADMIN
+C005;Dupont;Maxime;maxime.dupont@ateliernorde.fr;14/05/1981;25/08/2008;CDI;RH;Chargé de recrutement;Technicien;2886,00;90;19,5;4;C004;RH_ADMIN
+C006;Fontaine;Yanis;yanis.fontaine@ateliernorde.fr;08/01/1982;21/01/2011;CDI;RH;Gestionnaire paie;Agent de maîtrise;2824,00;80;24;3;C004;RH_ADMIN
+C007;Henry;Sarah;sarah.henry@ateliernorde.fr;25/05/1987;15/11/2016;CDI;RH;Chargée de recrutement;Agent de maîtrise;2746,00;100;16;5;C004;COLLABORATEUR
+C008;Lambert;Samuel;samuel.lambert@ateliernorde.fr;17/03/1971;06/06/2016;CDI;RH;Chargé de recrutement;Technicien;2248,00;100;24;3;C004;COLLABORATEUR
+C009;Dupont;Louis;louis.dupont@ateliernorde.fr;26/10/1989;05/04/2010;CDI;RH;Assistant RH;Agent de maîtrise;3298,00;100;3,5;3;C004;COLLABORATEUR
+C010;Fontaine;Alice;alice.fontaine@ateliernorde.fr;06/01/1973;21/05/2016;Freelance;RH;Chargée de recrutement;Employé;4407,00;100;0;0;C004;COLLABORATEUR
+C011;Guerin;Inès;ines.guerin@ateliernorde.fr;02/12/1986;09/06/2007;CDI;RH;Chargée RH;Employé;1909,00;80;28,5;0;C004;COLLABORATEUR
+C012;Robin;Lucas;lucas.robin@ateliernorde.fr;23/11/1988;06/03/2026;CDI;FIN;Responsable financier;Cadre;4315,00;100;16;9;C001;MANAGER
+C013;Guerin;Sarah;sarah.guerin@ateliernorde.fr;24/12/1996;30/06/2020;CDI;FIN;Assistante comptable;Technicien;2648,00;100;6,5;2;C012;COLLABORATEUR
+C014;Garcia;Nina;nina.garcia@ateliernorde.fr;09/03/1968;16/11/2020;CDI;FIN;Assistante comptable;Agent de maîtrise;2834,00;100;7;5;C012;COLLABORATEUR
+C015;Leroy;Nina;nina.leroy@ateliernorde.fr;15/03/2004;14/08/2026;Stage;FIN;Assistante comptable;Stagiaire;620,00;100;0;0;C012;COLLABORATEUR
+C016;André;Margaux;margaux.andre@ateliernorde.fr;15/09/1997;10/08/2018;CDI;FIN;Contrôleuse de gestion;Cadre;6476,00;100;24;1;C012;COLLABORATEUR
+C017;Laurent;Margaux;margaux.laurent@ateliernorde.fr;20/05/1968;10/12/2014;CDI;FIN;Contrôleuse de gestion;Cadre;6054,00;90;25,5;2;C012;COLLABORATEUR
+C018;Michel;Jade;jade.michel@ateliernorde.fr;04/12/2001;24/01/2026;Stage;FIN;Contrôleuse de gestion;Stagiaire;620,00;100;0;0;C012;COLLABORATEUR
+C019;Clement;Nina;nina.clement@ateliernorde.fr;09/07/1973;28/08/2011;CDI;FIN;Assistante comptable;Employé;1912,00;100;1,5;3;C012;COLLABORATEUR
+C020;Simon;Mathis;mathis.simon@ateliernorde.fr;05/08/1968;05/02/2024;Freelance;FIN;Comptable;Employé;4245,00;100;0;0;C012;COLLABORATEUR
+C021;David;Samuel;samuel.david@ateliernorde.fr;21/12/1990;02/05/2024;CDI;COM;Directeur commercial;Cadre;3962,00;100;15,5;4;C001;MANAGER
+C022;David;Zoé;zoe.david@ateliernorde.fr;17/02/1995;28/03/2023;CDI;COM;Chargée d'affaires;Technicien;2274,00;100;17;0;C021;COLLABORATEUR
+C023;Rousseau;Sarah;sarah.rousseau@ateliernorde.fr;28/08/1980;04/10/2024;CDI;COM;Chargée d'affaires;Employé;2011,00;80;21;4;C021;COLLABORATEUR
+C024;Martin;Mathis;mathis.martin@ateliernorde.fr;07/06/1978;24/11/2025;CDD;COM;Assistant commercial;Agent de maîtrise;2737,00;100;4,5;2;C021;COLLABORATEUR
+C025;Michel;Mehdi;mehdi.michel@ateliernorde.fr;04/11/1976;03/05/2016;CDI;COM;Assistant commercial;Technicien;2294,00;100;10;1;C021;COLLABORATEUR
+C026;Simon;Paul;paul.simon@ateliernorde.fr;27/08/1996;18/10/2021;CDI;COM;Assistant commercial;Agent de maîtrise;2714,00;100;11;4;C021;COLLABORATEUR
+C027;Dubois;Manon;manon.dubois@ateliernorde.fr;16/10/1966;28/02/2025;CDI;COM;Chargée d'affaires;Technicien;2455,00;100;26,5;3;C021;COLLABORATEUR
+C028;David;Julien;julien.david@ateliernorde.fr;10/12/1972;08/10/2024;Freelance;COM;Commercial;Technicien;5769,00;100;0;0;C021;COLLABORATEUR
+C029;Roux;Antoine;antoine.roux@ateliernorde.fr;07/11/1969;31/07/2013;CDD;COM;Commercial;Employé;2321,00;100;24;1;C021;COLLABORATEUR
+C030;Lambert;Sarah;sarah.lambert@ateliernorde.fr;12/02/1968;08/09/2026;CDI;COM;Chargée d'affaires;Technicien;2721,00;50;16;0;C021;COLLABORATEUR
+C031;Laurent;Julie;julie.laurent@ateliernorde.fr;28/11/1976;10/11/2005;Freelance;COM;Assistante commerciale;Employé;5241,00;100;0;0;C021;COLLABORATEUR
+C032;Bertrand;Karim;karim.bertrand@ateliernorde.fr;28/01/1965;30/08/2016;CDD;COM;Commercial;Agent de maîtrise;2972,00;90;18,5;5;C021;COLLABORATEUR
+C033;Rousseau;Romain;romain.rousseau@ateliernorde.fr;20/08/1979;10/01/2014;CDI;COM;Chargé d'affaires;Agent de maîtrise;3167,00;100;11,5;5;C021;COLLABORATEUR
+C034;Henry;Bastien;bastien.henry@ateliernorde.fr;07/01/1965;26/10/2011;CDI;COM;Chargé d'affaires;Technicien;2793,00;100;20,5;4;C021;COLLABORATEUR
+C035;Clement;Inès;ines.clement@ateliernorde.fr;12/10/1994;08/07/2022;CDI;COM;Commerciale;Employé;2080,00;100;1,5;3;C021;COLLABORATEUR
+C036;Legrand;Lucas;lucas.legrand@ateliernorde.fr;24/03/2004;19/07/2025;Alternance;COM;Chargé d'affaires;Alternant;1075,00;100;19,5;0;C021;COLLABORATEUR
+C037;Masson;Chloé;chloe.masson@ateliernorde.fr;20/03/1996;23/10/2022;CDI;COM;Chargée d'affaires;Technicien;2455,00;100;14;4;C021;COLLABORATEUR
+C038;Morel;Bastien;bastien.morel@ateliernorde.fr;07/04/1997;30/08/2023;CDI;COM;Chargé d'affaires;Technicien;2362,00;100;7,5;5;C021;COLLABORATEUR
+C039;Faure;Louise;louise.faure@ateliernorde.fr;11/02/1993;14/05/2019;CDI;MKT;Responsable marketing;Cadre;4924,00;100;9,5;8;C001;MANAGER
+C040;Garcia;Manon;manon.garcia@ateliernorde.fr;08/09/1996;27/05/2019;CDI;MKT;Community manager;Employé;2327,00;100;25;3;C039;COLLABORATEUR
+C041;Dumont;Samuel;samuel.dumont@ateliernorde.fr;17/04/2005;13/08/2026;Alternance;MKT;Chargé de marketing;Alternant;1385,00;100;11,5;0;C039;COLLABORATEUR
+C042;Guerin;Arthur;arthur.guerin@ateliernorde.fr;23/01/1992;12/12/2017;CDD;MKT;Graphiste;Technicien;2646,00;100;20;6;C039;COLLABORATEUR
+C043;Legrand;Inès;ines.legrand@ateliernorde.fr;17/12/1988;09/08/2009;Freelance;MKT;Chargée de marketing;Technicien;5316,00;100;0;0;C039;COLLABORATEUR
+C044;Laurent;Eva;eva.laurent@ateliernorde.fr;08/09/1979;30/09/2009;CDI;MKT;Chargée de marketing;Technicien;2588,00;90;12,5;6;C039;COLLABORATEUR
+C045;Chevalier;Alice;alice.chevalier@ateliernorde.fr;12/09/1980;11/01/2010;CDI;MKT;Graphiste;Agent de maîtrise;3399,00;100;7,5;6;C039;COLLABORATEUR
+C046;David;Manon;manon.david@ateliernorde.fr;18/02/1970;26/08/2017;CDI;MKT;Chargée de marketing;Employé;2227,00;100;29;5;C039;COLLABORATEUR
+C047;Fournier;Inès;ines.fournier@ateliernorde.fr;07/11/1969;24/12/2017;CDI;SI;DSI;Cadre;3905,00;90;6;9;C001;MANAGER
+C048;Petit;Antoine;antoine.petit@ateliernorde.fr;14/05/2004;04/05/2025;Alternance;SI;Technicien support;Alternant;1338,00;100;11;0;C047;COLLABORATEUR
+C049;Martin;Mehdi;mehdi.martin@ateliernorde.fr;05/08/2001;20/03/2026;Alternance;SI;Chef de projet SI;Alternant;1222,00;100;5,5;0;C047;COLLABORATEUR
+C050;Perrin;Paul;paul.perrin@ateliernorde.fr;17/10/1997;23/08/2024;CDI;SI;Chef de projet SI;Cadre;4899,00;80;7,5;7;C047;COLLABORATEUR
+C051;Girard;Louis;louis.girard@ateliernorde.fr;01/08/1979;29/01/2009;CDI;SI;Développeur;Cadre;5797,00;100;18;4;C047;COLLABORATEUR
+C052;Lefebvre;Mathis;mathis.lefebvre@ateliernorde.fr;26/03/1983;17/12/2015;CDI;SI;Développeur;Cadre;6074,00;100;13,5;0;C047;COLLABORATEUR
+C053;Lambert;Emma;emma.lambert@ateliernorde.fr;02/02/1991;11/04/2020;CDI;SI;Administratrice systèmes;Technicien;2552,00;100;10,5;3;C047;COLLABORATEUR
+C054;Garcia;Julie;julie.garcia@ateliernorde.fr;26/02/1979;07/09/2007;CDD;SI;Développeuse;Cadre;5994,00;100;8,5;9;C047;COLLABORATEUR
+C055;Nicolas;Mathis;mathis.nicolas@ateliernorde.fr;16/09/1973;24/08/2011;Freelance;SI;Technicien support;Employé;5093,00;100;0;0;C047;COLLABORATEUR
+C056;Thomas;Camille;camille.thomas@ateliernorde.fr;31/08/1970;23/04/2019;CDI;SI;Technicienne support;Technicien;2787,00;100;10;0;C047;COLLABORATEUR
+C057;Durand;Jade;jade.durand@ateliernorde.fr;28/04/1968;10/12/2017;CDI;SI;Développeuse;Cadre;6378,00;100;28,5;1;C047;COLLABORATEUR
+C058;Muller;Maxime;maxime.muller@ateliernorde.fr;28/09/1992;23/01/2018;CDI;SI;Chef de projet SI;Cadre;5940,00;80;29,5;4;C047;COLLABORATEUR
+C059;Perrin;Hugo;hugo.perrin@ateliernorde.fr;02/03/2002;01/10/2026;Stage;SI;Développeur;Stagiaire;620,00;100;0;0;C047;COLLABORATEUR
+C060;Robert;Nina;nina.robert@ateliernorde.fr;18/03/1985;18/06/2021;CDI;SI;Administratrice systèmes;Agent de maîtrise;2898,00;100;21;3;C047;COLLABORATEUR
+C061;Bertrand;Emma;emma.bertrand@ateliernorde.fr;06/06/1989;16/01/2015;CDI;SI;Administratrice systèmes;Agent de maîtrise;2872,00;100;9;5;C047;COLLABORATEUR
+C062;Martinez;Romain;romain.martinez@ateliernorde.fr;23/08/1978;11/09/2020;CDI;SI;Développeur;Cadre;5448,00;100;1;6;C047;COLLABORATEUR
+C063;Bertrand;Bastien;bastien.bertrand@ateliernorde.fr;28/02/1966;19/01/2007;CDI;PROD;Responsable de production;Cadre;4737,00;100;8;0;C001;MANAGER
+C064;Garnier;Nathan;nathan.garnier@ateliernorde.fr;24/06/1977;26/01/2009;CDI;PROD;Responsable qualité;Agent de maîtrise;3250,00;100;10;5;C063;COLLABORATEUR
+C065;Girard;Inès;ines.girard@ateliernorde.fr;06/12/1977;11/11/2019;CDI;PROD;Technicienne de production;Technicien;2665,00;100;3,5;6;C063;COLLABORATEUR
+C066;Martin;Louise;louise.martin@ateliernorde.fr;05/08/2003;28/02/2026;Alternance;PROD;Responsable qualité;Alternant;1320,00;100;13,5;0;C063;COLLABORATEUR
+C067;Muller;Julie;julie.muller@ateliernorde.fr;17/06/2003;01/10/2026;Stage;PROD;Opératrice;Stagiaire;620,00;100;0;0;C063;COLLABORATEUR
+C068;Martin;Nina;nina.martin@ateliernorde.fr;30/01/1975;15/11/2023;CDI;PROD;Responsable qualité;Employé;2007,00;90;9;5;C063;COLLABORATEUR
+C069;Garnier;Jade;jade.garnier@ateliernorde.fr;28/06/1971;09/08/2013;CDI;PROD;Opératrice;Employé;1921,00;100;25,5;2;C063;COLLABORATEUR
+C070;Roux;Mathis;mathis.roux@ateliernorde.fr;24/05/1978;14/10/2023;CDI;PROD;Opérateur;Agent de maîtrise;3275,00;100;10,5;4;C063;COLLABORATEUR
+C071;Legrand;Louis;louis.legrand@ateliernorde.fr;29/11/2004;02/09/2025;Alternance;PROD;Technicien de production;Alternant;1162,00;100;22,5;0;C063;COLLABORATEUR
+C072;Faure;Julien;julien.faure@ateliernorde.fr;23/06/1991;12/06/2019;CDI;PROD;Opérateur;Employé;2317,00;100;12,5;5;C063;COLLABORATEUR
+C073;Garnier;Lucas;lucas.garnier@ateliernorde.fr;28/01/1996;17/06/2021;CDI;PROD;Technicien de production;Agent de maîtrise;2936,00;90;19;6;C063;COLLABORATEUR
+C074;Dubois;Nina;nina.dubois@ateliernorde.fr;24/04/1993;12/06/2020;CDI;PROD;Responsable qualité;Employé;1952,00;100;9;0;C063;COLLABORATEUR
+C075;Vincent;Camille;camille.vincent@ateliernorde.fr;14/07/1971;24/06/2010;CDI;PROD;Technicienne de production;Agent de maîtrise;3179,00;100;18,5;3;C063;COLLABORATEUR
+C076;Faure;Antoine;antoine.faure@ateliernorde.fr;08/09/1985;22/04/2020;CDI;PROD;Responsable qualité;Technicien;2882,00;80;20,5;1;C063;COLLABORATEUR
+C077;Roussel;Lucie;lucie.roussel@ateliernorde.fr;13/01/1984;26/06/2020;CDI;PROD;Technicienne de production;Technicien;2403,00;100;11,5;2;C063;COLLABORATEUR
+C078;Bernard;Romain;romain.bernard@ateliernorde.fr;13/05/1965;11/09/2017;CDI;PROD;Responsable qualité;Agent de maîtrise;3220,00;100;18;2;C063;COLLABORATEUR
+C079;Perrin;Sarah;sarah.perrin@ateliernorde.fr;04/05/1997;10/08/2026;CDI;PROD;Technicienne de production;Agent de maîtrise;3243,00;100;1;2;C063;COLLABORATEUR
+C080;Vincent;Lucas;lucas.vincent@ateliernorde.fr;17/11/1972;03/07/2009;CDD;PROD;Technicien de production;Employé;2363,00;80;7,5;6;C063;COLLABORATEUR
+C081;Chevalier;Romain;romain.chevalier@ateliernorde.fr;04/01/1986;08/09/2008;CDD;PROD;Technicien de production;Employé;2256,00;100;23,5;0;C063;COLLABORATEUR
+C082;Legrand;Chloé;chloe.legrand@ateliernorde.fr;28/02/1995;09/12/2018;CDI;PROD;Technicienne de production;Agent de maîtrise;3253,00;100;1;4;C063;COLLABORATEUR
+C083;Garcia;Elise;elise.garcia@ateliernorde.fr;29/10/1985;25/05/2026;CDI;PROD;Responsable qualité;Agent de maîtrise;3264,00;100;1;3;C063;COLLABORATEUR
+C084;Guerin;Emma;emma.guerin@ateliernorde.fr;23/08/1981;15/01/2020;CDI;PROD;Opératrice;Agent de maîtrise;3029,00;100;25;4;C063;COLLABORATEUR
+C085;Dubois;Julie;julie.dubois@ateliernorde.fr;21/11/1984;22/12/2014;CDI;PROD;Responsable qualité;Employé;2217,00;100;5,5;0;C063;COLLABORATEUR
+C086;Richard;Théo;theo.richard@ateliernorde.fr;08/09/1993;24/06/2014;CDI;PROD;Responsable qualité;Employé;2060,00;80;16,5;4;C063;COLLABORATEUR
+C087;Girard;Emma;emma.girard@ateliernorde.fr;15/08/1971;09/09/2022;CDI;LOG;Responsable logistique;Cadre;6241,00;100;24;1;C001;MANAGER
+C088;Leroy;Thomas;thomas.leroy@ateliernorde.fr;04/09/1975;17/03/2018;CDI;LOG;Magasinier;Technicien;2471,00;100;16;5;C087;COLLABORATEUR
+C089;Masson;Eva;eva.masson@ateliernorde.fr;22/11/1969;20/02/2015;CDI;LOG;Préparatrice de commandes;Agent de maîtrise;3229,00;100;29;0;C087;COLLABORATEUR
+C090;François;Louis;louis.francois@ateliernorde.fr;15/12/1996;22/12/2021;CDI;LOG;Gestionnaire de stock;Employé;2001,00;100;18,5;4;C087;COLLABORATEUR
+C091;Dupont;Mehdi;mehdi.dupont@ateliernorde.fr;09/05/1985;04/05/2017;CDI;LOG;Gestionnaire de stock;Agent de maîtrise;2701,00;100;7;2;C087;COLLABORATEUR
+C092;Bonnet;Louis;louis.bonnet@ateliernorde.fr;23/02/1984;05/01/2012;CDI;LOG;Gestionnaire de stock;Agent de maîtrise;2983,00;100;2,5;3;C087;COLLABORATEUR
+C093;Leroy;Lucie;lucie.leroy@ateliernorde.fr;12/03/1990;07/08/2023;CDI;LOG;Gestionnaire de stock;Technicien;2562,00;100;8,5;2;C087;COLLABORATEUR
+C094;Rousseau;Pauline;pauline.rousseau@ateliernorde.fr;19/08/1986;12/01/2012;CDI;LOG;Magasinière;Employé;1967,00;100;7;3;C087;COLLABORATEUR
+C095;Perrin;Bastien;bastien.perrin@ateliernorde.fr;07/03/1966;29/08/2018;CDI;LOG;Gestionnaire de stock;Agent de maîtrise;2629,00;100;27,5;2;C087;COLLABORATEUR
+C096;Henry;Manon;manon.henry@ateliernorde.fr;14/05/1971;15/08/2021;CDI;LOG;Gestionnaire de stock;Agent de maîtrise;2693,00;100;10;2;C087;COLLABORATEUR
+C097;Masson;Zoé;zoe.masson@ateliernorde.fr;12/05/1967;28/06/2008;CDI;LOG;Gestionnaire de stock;Employé;1933,00;100;12,5;4;C087;COLLABORATEUR
+C098;Michel;Julie;julie.michel@ateliernorde.fr;14/04/1984;28/06/2007;CDI;LOG;Gestionnaire de stock;Technicien;2739,00;100;29,5;0;C087;COLLABORATEUR
+C099;Michel;Clara;clara.michel@ateliernorde.fr;26/12/1977;11/05/2012;CDD;LOG;Magasinière;Employé;2029,00;100;21;4;C087;COLLABORATEUR
+C100;Robert;Victor;victor.robert@ateliernorde.fr;28/03/2001;23/03/2026;Alternance;LOG;Préparateur de commandes;Alternant;1293,00;100;12;0;C087;COLLABORATEUR
